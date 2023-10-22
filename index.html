@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate QR Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <img src="./image/QR_Code1.png" alt="" class="shadow">
+        <div class="left">
+            <h2>Generate Your QR Code</h2>
+            <p> Create custom QR codes for URLs, contact info, Wi-Fi access, and more. Streamline information sharing and enhance marketing with our user-friendly tool.</p>
+            <input type="text" placeholder="Type your text or URL" class="url-text" id="qr-text">
+            <div class="qr-footer">
+                <a href="" id="generateBtn">Generate</a>
+                <a href="" id="downloadBtn" download="QR_Code.png">Download</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="fullQr"></div>
+            <img src="./image/bg.png" alt="">
+            <div class="smallQr"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+</html>
