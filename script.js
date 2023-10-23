@@ -30,8 +30,8 @@ function generateQRCode(){
     qrContainer2.innerHTML = "";
     new QRCode(qrContainer, {
         text:qrText.value,
-        height:150,
-        width:150,
+        height:100,
+        width:100,
         colorLight:"#fff",
         colorDark:"#000",
     });
